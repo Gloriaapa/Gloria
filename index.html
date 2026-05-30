@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glosario de Términos Tecnológicos - Gloria Aparicio</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #16a085;
+            --bg-color: #f4f6f7;
+            --text-color: #34495e;
+            --card-bg: #ffffff;
+            --border-color: #d5dbdb;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 20px;
+        }
+
+        header h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin: 0 0 10px 0;
+        }
+
+        header p {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        /* Perfil de Autor */
+        .author-card {
+            background: linear-gradient(135deg, var(--primary-color), #34495e);
+            color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .author-card h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.8rem;
+            color: #1abc9c;
+        }
+
+        .author-card p {
+            margin: 5px 0;
+            font-size: 1.05rem;
+            color: #ecf0f1;
+        }
+
+        .author-links {
+            margin-top: 15px;
+        }
+
+        .author-links a {
+            color: #1abc9c;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+            border-bottom: 1px dashed #1abc9c;
+            transition: color 0.2s;
+        }
+
+        .author-links a:hover {
+            color: #ffffff;
+            border-bottom-style: solid;
+        }
+
+        .glossary-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .glossary-item {
+            background-color: var(--card-bg);
+            border-left: 5px solid var(--accent-color);
+            border-radius: 4px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .term {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin: 0 0 8px 0;
+        }
+
+        .definition {
+            font-size: 1.05rem;
+            color: #555555;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 20px 0;
+            color: #95a5a6;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Bloque de Contacto y Autoría solicitado -->
+    <section class="author-card">
+        <h2>Proyecto: Glosario Tecnológico de Agentes e IA</h2>
+        <p><strong>Autor:</strong> Gloria Aparicio</p>
+        <p><strong>Contacto:</strong> gloria.aparicio.contacto@example.com</p>
+        <div class="author-links">
+            <a href="https://www.linkedin.com/in/gloria-aparicio-placeholder" target="_blank">🔗 Mi Perfil de LinkedIn</a>
+        </div>
+    </section>
+
+    <header>
+        <h1>Glosario de Términos</h1>
+        <p>Conceptos clave explicados de forma precisa y resumida</p>
+    </header>
+
+    <main class="glossary-list">
+        <div class="glossary-item">
+            <p class="term">Agente</p>
+            <p class="definition">Entidad que actúa de forma autónoma para lograr un objetivo.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Multiagente</p>
+            <p class="definition">Conjunto de agentes autónomos que colaboran para lograr un objetivo.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Utilidad de un Multiagente</p>
+            <p class="definition">Para resolver problemas complejos mediante la colaboración de múltiples agentes.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Droid</p>
+            <p class="definition">Robot con inteligencia artificial que realiza tareas de forma autónoma.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Fake Bot</p>
+            <p class="definition">Programa automatizado que simula ser un usuario humano o legítimo.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Repositorio</p>
+            <p class="definition">Para almacenar, gestionar versiones de código y colaborar en equipo.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">GitHub</p>
+            <p class="definition">GitHub es una plataforma para alojar, gestionar y compartir código.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Funcionamiento de GitHub</p>
+            <p class="definition">Rastrea versiones de código online facilitando el trabajo en equipo.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Diferencia entre Claude y Droid</p>
+            <p class="definition">Claude es un software conversacional y Droid un robot físico.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Open Claude</p>
+            <p class="definition">Versión de código abierto de Claude compatible con múltiples modelos.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Open Cloud</p>
+            <p class="definition">Nube construida con código abierto para garantizar flexibilidad e interoperabilidad.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Sección de uso en Ollama</p>
+            <p class="definition">Sección que muestra las métricas de rendimiento y tokens consumidos.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Sistema predictivo de agentes</p>
+            <p class="definition">Sistema de agentes autónomos que anticipan eventos futuros para decidir.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Capacitaciones con un agente</p>
+            <p class="definition">Permite simular escenarios reales para entrenar personal de forma eficiente.</p>
+        </div>
+
+        <div class="glossary-item">
+            <p class="term">Unskills</p>
+            <p class="definition">Término que describe la falta de habilidades o capacitación técnica.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Glosario de Definiciones Cortas &copy; 2026 | Desarrollado por Gloria Aparicio</p>
+    </footer>
+</div>
+
+</body>
+</html>
